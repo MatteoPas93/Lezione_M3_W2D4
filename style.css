@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(0, 162, 162);
+}
+
+#logo {
+  width: 70px;
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.mete__mare {
+    margin-right: 5px;
+}
+
+.mete__montagna {
+    margin-left: 5px;
+}
+
+.img__card {
+  /* min-width: 180px; */
+  max-width: 250px;
+}
+
+.card__meta {
+  max-width: 220px;
+  min-width: 200px;
+  margin-inline: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.card__meta:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.card {
+  border: 2px solid black;
+  /* flex-basis: 150px; */
+}
+
+.offerta__settimana {
+  height: 100%;
+}
+
+/* .cards__offerta {
+    border: 2px solid red;
+} */
+
+.card__offerta {
+  width: 200px;
+  margin-bottom: 10px;
+  /* box-shadow: 5px 5px 5px black; */
+}
+
+.card__offerta:hover {
+  cursor: pointer;
+}
+
+/* .welcome__summer {
+    border: 2px solid red;
+} */
+
+.card__welcome {
+  width: 150px;
+  box-shadow: 5px 5px 5px black;
+  margin-bottom: 10px;
+}
+
+.card__welcome:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.img__offerta {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+}
+
+/* .last__minute {
+    border: 2px solid red;
+} */
+
+.card__last {
+  box-shadow: 5px 5px 5px black;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+
+.card__last:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.footer {
+  height: 15vh;
+}
+
+.button__delete button {
+  padding: 20px;
+  border-radius: 20px;
+  background: rgb(162, 255, 0);
+}
+
+.button__contact {
+  width: 120px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgb(162, 255, 0);
+  color: black;
+  border: 2px solid black;
+}
+
+.button__contact:hover {
+  background: rgb(162, 255, 0);
+}
+
+.info__agenzia {
+  margin-left: 20px;
+}
+
+.collapse__button {
+  background: rgb(162, 255, 0);
+  color: black;
+  border: 1px solid black;
+}
+
+.collapse__button:hover {
+  background: rgb(162, 255, 0);
+}
+
+.elimina__card:hover {
+  color: white;
+}
+
+.modal__background {
+  background: rgb(81, 75, 75);
+}
+
+.input__utente {
+  margin: 5px;
+  border: 3px solid rgb(0, 162, 162);
+  /* text-align: center; */
+}
+
+.title__modal {
+  color: white;
+}
+
+.button__invia,
+.button__chiudi {
+  background: rgb(162, 255, 0);
+  color: black;
+  border: 1px solid black;
+}
+
+.button__chiudi:hover,
+.button__invia:hover {
+  background: rgb(162, 255, 0);
+  color: white;
+}
