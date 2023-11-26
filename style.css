@@ -19,9 +19,14 @@ body {
   max-width: 250px;
 }
 
+.container__mete {
+     margin-left: 18px;
+}
+
 .card__meta {
   max-width: 220px;
-  min-width: 180px;
+  /* flex-basis: 180px; */
+  min-width: 150px;
   margin-inline: 10px;
   box-shadow: 5px 5px 5px black;
 }
@@ -46,8 +51,10 @@ body {
 } */
 
 .card__offerta {
-  width: 200px;
+  min-width: 120px;
+  max-width: 200px;
   margin-bottom: 10px;
+  margin-left: 20px;
   /* box-shadow: 5px 5px 5px black; */
 }
 
@@ -63,6 +70,7 @@ body {
   width: 150px;
   box-shadow: 5px 5px 5px black;
   margin-bottom: 10px;
+  margin-left: 40px;
 }
 
 .card__welcome:hover {
@@ -83,8 +91,9 @@ body {
 
 .card__last {
   box-shadow: 5px 5px 5px black;
-  min-width: 200px;
+  min-width: 150px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .card__last:hover {
