@@ -11,11 +11,11 @@ body {
 }
 
 .mete__mare {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .mete__montagna {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .img__card {
@@ -101,10 +101,17 @@ body {
   height: 15vh;
 }
 
+.button__delete {
+  width: 160px;
+}
+
 .button__delete button {
   padding: 20px;
   border-radius: 20px;
   background: rgb(162, 255, 0);
+  width: 120px;
+  height: 68px;
+  border: 2px solid black;
 }
 
 .button__contact {
@@ -163,4 +170,9 @@ body {
 .button__invia:hover {
   background: rgb(162, 255, 0);
   color: white;
+}
+
+.offerta__giorno {
+  background: rgb(0, 162, 162);
+  border: none;
 }
