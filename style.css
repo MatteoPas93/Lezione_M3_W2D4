@@ -21,7 +21,7 @@ body {
 
 .card__meta {
   max-width: 220px;
-  min-width: 150px;
+  min-width: 180px;
   margin-inline: 10px;
   box-shadow: 5px 5px 5px black;
 }
