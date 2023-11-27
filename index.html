@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navbar pt-0 navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar pt-0 navbar-expand-lg bg-body-tertiary row">
       <div class="container-fluid justify-content-start">
         <img id="logo" src="./assets/viaggi.jpg" alt="logo" />
         <h1 class="navbar-brand" href="#">Agenzia viaggi GoodLife</h1>
@@ -77,7 +77,8 @@
         </div>
       </div>
     </nav>
-    <div class="container container__mete">
+
+    <div class="container__mete row flex-wrap">
       <div class="titolo__mete text-center mb-2">
         <div class="mete__principali row">
           <div class="titolo__principale">
@@ -94,9 +95,9 @@
                 Collapse
               </button>
             </p>
-            <div class="collapse row show" id="collapse__mete">
+            <div class="collapse row show justify-content-evenly" id="collapse__mete">
               <div
-                class="mete__mare row col-12  col-lg-6  flex-wrap align-content-center justify-content-center mb-5"
+                class="mete__mare row col-12 col-lg-6 flex-wrap align-content-center justify-content-center mb-5"
               >
                 <div
                   class="titolo__mete__sole text-start"
@@ -146,7 +147,7 @@
                 </div>
               </div>
               <div
-                class="mete__montagna row col-12 col-lg-6 flex-wrap align-content-center justify-content-center mb-5 mr-2"
+                class="mete__orientali row col-12 col-lg-6 flex-wrap align-content-center justify-content-center mb-5 mr-2"
               >
                 <div
                   class="titolo__mete__neve text-start"
@@ -200,7 +201,7 @@
         </div>
       </div>
     </div>
-    <div class="container offerta__settimana">
+    <div class="container_offerta__settimana">
       <div class="offerta__settimana text-center mt-5 row">
         <div class="titolo__offerta flex-wrap" id="link__dropdown__settimana">
           <h2>Offerta della settimana</h2>
@@ -216,11 +217,11 @@
               Collapse
             </button>
           </p>
-          <div class="collapse row show" id="collapse__offertaSettimana">
+          <div class="collapse row show justify-content-evenly" id="collapse__offertaSettimana">
             <div
               class="cards__offerta row d-flex flex-wrap justify-content-around"
             >
-              <div class="card card__offerta col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card__offerta col-6 col-md-4 col-lg-3">
                 <img
                   class="img__card"
                   src="./assets/img_lasvegas.jpg"
@@ -235,7 +236,7 @@
                   non mancano cibo, bevande e divertimento.
                 </p>
               </div>
-              <div class="card card__offerta col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card__offerta col-6 col-md-4 col-lg-3">
                 <img
                   class="img__card"
                   src="./assets/img_losangeles.jpg"
@@ -253,7 +254,7 @@
                   degli Angeli.
                 </p>
               </div>
-              <div class="card card__offerta col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card__offerta col-6 col-md-4 col-lg-3">
                 <img
                   class="img__card"
                   src="./assets/img_miami.jpg"
@@ -269,7 +270,7 @@
                   è in cerca di vita mondana.
                 </p>
               </div>
-              <div class="card card__offerta col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card__offerta col-6 col-md-4 col-lg-3">
                 <img
                   class="img__card"
                   src="./assets/img_newyork.jpg"
@@ -290,7 +291,7 @@
       </div>
     </div>
 
-    <div class="container container__welcome">
+    <div class="container__welcome">
       <div class="welcome__summer text-center mt-5 mb-5 row">
         <div class="titolo_welcome" id="link__dropdown__welcome">
           <h2>Welcome Summer</h2>
@@ -307,9 +308,9 @@
             Collapse
           </button>
         </p>
-        <div class="collapse row show" id="collapse__welcome">
-          <div class="cards__welcome row flex-wrap justify-content-around">
-            <div class="card card__welcome col-6 col-sm-4 col-md-2">
+        <div class="collapse row show justify-content-center" id="collapse__welcome">
+          <div class="cards__welcome row flex-wrap justify-content-between">
+            <div class="card card__welcome col-6 col-md-4 col-lg-2">
               <img
                 class="img__card"
                 src="./assets/img_calabria.jpg"
@@ -319,7 +320,7 @@
               <p>Costo: 900€ a persona per 7 notti</p>
               <p>Trattamento: Mezza pensione</p>
             </div>
-            <div class="card card__welcome col-6 col-sm-4 col-md-2">
+            <div class="card card__welcome col-6 col-md-4 col-lg-2">
               <img
                 class="img__card"
                 src="./assets/img_isolaelba.jpg"
@@ -329,7 +330,7 @@
               <p>Costo: 800€ a persona per 7 notti</p>
               <p>Trattamento: Mezza pensione</p>
             </div>
-            <div class="card card__welcome col-6 col-sm-4 col-md-2">
+            <div class="card card__welcome col-6 col-md-4 col-lg-2">
               <img
                 class="img__card"
                 src="./assets/img_puglia.jpg"
@@ -339,7 +340,7 @@
               <p>Costo: 1000€ a persona per 7 notti</p>
               <p>Trattamento: Mezza pensione</p>
             </div>
-            <div class="card card__welcome col-6 col-sm-4 col-md-2">
+            <div class="card card__welcome col-6 col-md-4 col-lg-2">
               <img
                 class="img__card"
                 src="./assets/img_sardegna.jpg"
@@ -349,7 +350,7 @@
               <p>Costo: 1200€ a persona per 7 notti</p>
               <p>Trattamento: All Inclusive</p>
             </div>
-            <div class="card card__welcome col-6 col-sm-4 col-md-2">
+            <div class="card card__welcome col-6 col-md-4 col-lg-2">
               <img
                 class="img__card"
                 src="./assets/img_sicilia.jpg"
@@ -359,7 +360,7 @@
               <p>Costo: 1000€ a persona per 7 notti</p>
               <p>Trattamento: Mezza pensione</p>
             </div>
-            <div class="card card__welcome col-6 col-sm-4 col-md-2">
+            <div class="card card__welcome col-6 col-md-4 col-lg-2">
               <img
                 class="img__card"
                 src="./assets/img_toscana.jpg"
@@ -373,7 +374,8 @@
         </div>
       </div>
     </div>
-    <div class="container container__offertaGiorno d-none d-md-block d-lg-block">
+    <div class="container__offertaGiorno d-none d-md-block d-lg-block"
+    >
       <div class="card offerta__giorno text-center row flex-wrap">
         <div
           class="titolo__offerta row flex-wrap mb-5"
@@ -393,7 +395,7 @@
             Collapse
           </button>
         </p>
-        <div class="collapse row show" id="collapse__offertaGiorno">
+        <div class="collapse row show justify-content-center" id="collapse__offertaGiorno">
           <div class="img__offerta__giorno col-8 flex-wrap">
             <img
               class="img__offerta d-flex flex-wrap"
@@ -414,7 +416,7 @@
         </div>
       </div>
     </div>
-    <div class="container container__lastMinute">
+    <div class="container__lastMinute">
       <div class="last__minute mt-5 text-center">
         <div class="titolo__lastminute mb-5" id="link__dropdown__last">
           <h2>Offerte Last Minute</h2>
@@ -431,7 +433,7 @@
             Collapse
           </button>
         </p>
-        <div class="collapse row show" id="collapse__lastMinute">
+        <div class="collapse row show justify-content-center" id="collapse__lastMinute">
           <div
             class="cards__lastminute d-flex justify-content-around flex-wrap row"
           >

@@ -10,13 +10,23 @@ body {
   height: 10vh;
 }
 
+
 .mete__mare {
   margin-right: 5px;
+  width: 420px;
+  gap: 25px;
 }
+
+.mete__orientali {
+  width: 420px;
+  gap: 25px;
+}
+
+
 
 .img__card {
   /* min-width: 180px; */
-  max-width: 250px;
+  /* max-width: 250px; */
 }
 
 .container__mete {
@@ -24,10 +34,11 @@ body {
 }
 
 .card__meta {
-  max-width: 220px;
+  width: 180px;
+  max-width: 200px;
   /* flex-basis: 180px; */
-  min-width: 150px;
-  margin-inline: 10px;
+  /* min-width: 150px; */
+  /* margin-inline: 10px; */
   box-shadow: 5px 5px 5px black;
 }
 
@@ -43,18 +54,14 @@ body {
 }
 
 .offerta__settimana {
-  height: 100%;
-}
-
-/* .cards__offerta {
-    border: 2px solid red;
-} */
+   height: 100%;
+   margin-left: 5px;
+} 
 
 .card__offerta {
   min-width: 120px;
   max-width: 200px;
   margin-bottom: 10px;
-  margin-left: 20px;
   /* box-shadow: 5px 5px 5px black; */
 }
 
@@ -62,15 +69,16 @@ body {
   cursor: pointer;
 }
 
-/* .welcome__summer {
-    border: 2px solid red;
-} */
+
+.container__welcome {
+  margin-left: 20px;
+}
 
 .card__welcome {
   width: 150px;
   box-shadow: 5px 5px 5px black;
   margin-bottom: 10px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .card__welcome:hover {
@@ -85,15 +93,15 @@ body {
   width: 100%;
 }
 
-/* .last__minute {
-    border: 2px solid red;
-} */
+.container__lastMinute {
+  margin-left: 20px;
+}
 
 .card__last {
   box-shadow: 5px 5px 5px black;
-  min-width: 150px;
+  width: 150px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .card__last:hover {
